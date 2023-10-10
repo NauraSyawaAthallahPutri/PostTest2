@@ -85,12 +85,12 @@ while True:
         break #Berhenti looping jika masuk sebagai customer
     
     elif login == 2:
-        # pw = input('Masukkan Password Admin: ')
-        # if pw == pw_admin:
-        #     print("Semangat kerja min :v")
+        pw = input('Masukkan Password Admin: ')
+        if pw == pw_admin:
+            print("Semangat kerja min :v")
             break  #Berhenti looping jika password benar
-        # else:
-        #     print("Salah pw lo min")
+        else:
+            print("Salah pw lo min")
 
 #------------------------------------ Customer -----------------------------------
 # Pilihan menu bagi customer
